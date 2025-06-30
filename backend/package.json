@@ -1,0 +1,26 @@
+{
+  "name": "ceycan-backend",
+  "version": "1.0.0",
+  "description": "Backend for CeyCan Agro website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "create-super-admin": "node scripts/createSuperAdmin.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "nodemon": "^3.0.1"
+  }
+}
